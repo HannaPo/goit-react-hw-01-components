@@ -1,15 +1,14 @@
 import styled from '@emotion/styled';
 
 export const ProfileWrapper = styled.div`
-  margin: 20px auto;
+  margin: 20px;
   padding-top: 30px;
-  width: 250px;
+  width: 300px;
   max-width: 100%;
   color: #4d5264;
-  background-color: #dbdbf3;
-  box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
-  border-radius: 3px;
+  background-color: #f3f3f5;
   text-align: center;
+   box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 1px rgba(0,0,0,.14), 0 2px 1px rgba(0,0,0,.2);
 `;
 
 export const Avatar = styled.img`
@@ -17,7 +16,7 @@ export const Avatar = styled.img`
   margin: 10px auto;
   height: 120px;
   width: 120px;
-  `;
+`;
 
 export const Name = styled.p`
   font-size: 20px;
@@ -53,7 +52,7 @@ export const StatsItem = styled.li`
   padding: 15px;
   width: calc(100% / 3);
   border-right: 1px solid rgb(35 50 73 / 17%);
-   &:last-child {
+  &:last-child {
     border-right: none;
   }
 `;
