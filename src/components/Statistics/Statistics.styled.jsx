@@ -1,16 +1,15 @@
 import styled from '@emotion/styled';
 
 export const Section = styled.section`
-  margin: 0 auto;
-  max-width: 250px;
-    color: #4d5264;
-  background-color: #dbdbf3;
-   box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
-  border-radius: 3px;
-`;
+  margin: 20px;
+  max-width: 100%;
+  color: #4d5264;
+  background-color: #f3f3f5;
+   box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 1px rgba(0,0,0,.14), 0 2px 1px rgba(0,0,0,.2);
+  `;
 
 export const Title = styled.h2`
-padding: 15px;
+  padding: 15px;
   font-size: 20px;
   text-align: center;
   text-transform: uppercase;
@@ -28,7 +27,7 @@ export const StatItem = styled.li`
   padding: 10px 0;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
   border-right: 1px solid #e4e9f0;
-    color: #e4e9f0;
+  color: #e4e9f0;
   &:last-child {
     border-right: none;
   }
