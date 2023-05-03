@@ -8,14 +8,16 @@ export const ProfileWrapper = styled.div`
   color: #4d5264;
   background-color: #f3f3f5;
   text-align: center;
-   box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 1px rgba(0,0,0,.14), 0 2px 1px rgba(0,0,0,.2);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14),
+    0 2px 1px rgba(0, 0, 0, 0.2);
 `;
 
 export const Avatar = styled.img`
   display: block;
-  margin: 10px auto;
-  height: 120px;
-  width: 120px;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
 `;
 
 export const Name = styled.p`
@@ -23,6 +25,7 @@ export const Name = styled.p`
   font-weight: 700;
   line-height: 1.16;
   margin-bottom: 10px;
+  
 `;
 
 export const Tag = styled.p`

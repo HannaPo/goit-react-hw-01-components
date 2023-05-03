@@ -7,4 +7,5 @@ export const Friends = styled.ul`
   gap: 10px;
   max-width: 100%;
   color: #4d5264;
+  
   `;
